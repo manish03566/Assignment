@@ -4,12 +4,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LongestPallindrome {
-	/*
-	 * static void printSubStr( String str, int low, int high) { System.out.println(
-	 * str.substring( low, high + 1)); }
-	 */
 	
-	     String longestPalSubstr(String str)
+	     String longestPalindromeSubstr(String str)
 	    {
 	        int n = str.length();
 	        boolean table[][] = new boolean[n][n];
